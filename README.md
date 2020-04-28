@@ -4,24 +4,24 @@ Tables are provided containing effective climate sensitivity, effective 2xCO<sub
 ## Table Contents
 For each model, the following global mean values are provided:
 
-| Abbreviation  | Description  |
-| ------------- |-------------|
-| ECS       | effective climate sensitivity |
-| ERF2x     | 2xCO<sub>2</sub> effective radiative forcing |      
-| PL        | Planck feedback |
-| PL*        | constant-RH Planck feedback |
-| LR        | lapse rate feedback |
-| LR*        | constant-RH lapse rate feedback |
-| WV        | water vapor feedback |
-| RH        | relative humidity feedback |
-| ALB        | surface albedo feedback |
-| CLD        | net cloud feedback |
-| SWCLD        | shortwave cloud feedback |
-| LWCLD        | longwave cloud feedback |
-| NET        | net feedback |
-| ERR        | kernel residual feedback |
+| Abbreviation  | Description  | Units  |
+| ------------- |:-------------:|:-------------:|
+| ECS           | effective climate sensitivity |                              K |
+| ERF2x         | 2xCO<sub>2</sub> effective radiative forcing | Wm<sup>-2</sup> |    
+| PL            | Planck feedback |                              Wm<sup>-2</sup>K<sup>-1</sup> |
+| PL*           | constant-RH Planck feedback |                  Wm<sup>-2</sup>K<sup>-1</sup> |
+| LR            | lapse rate feedback |                          Wm<sup>-2</sup>K<sup>-1</sup> |
+| LR*           | constant-RH lapse rate feedback |              Wm<sup>-2</sup>K<sup>-1</sup> |
+| WV            | water vapor feedback |                         Wm<sup>-2</sup>K<sup>-1</sup> |
+| RH            | relative humidity feedback |                   Wm<sup>-2</sup>K<sup>-1</sup> |
+| ALB           | surface albedo feedback |                      Wm<sup>-2</sup>K<sup>-1</sup> |
+| CLD           | net cloud feedback |                           Wm<sup>-2</sup>K<sup>-1</sup> |
+| SWCLD         | shortwave cloud feedback |                     Wm<sup>-2</sup>K<sup>-1</sup> |
+| LWCLD         | longwave cloud feedback |                      Wm<sup>-2</sup>K<sup>-1</sup> |
+| NET           | net feedback |                                 Wm<sup>-2</sup>K<sup>-1</sup> |
+| ERR           | kernel residual feedback |                     Wm<sup>-2</sup>K<sup>-1</sup> |
 
-The final two rows provide the multi-model average and standard deviation. Note that PL + LR + WV is equivalent to PL* + LR* + RH, and that CLD = SWCLD + LWCLD.
+Note that PL + LR + WV is equivalent to PL* + LR* + RH, and that CLD = SWCLD + LWCLD. The final two rows of the table provide the multi-model average and standard deviation. 
 
 ## Reference
 Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models, <em>Geophys. Res. Lett.</em>, 47, [doi:10.1029/2019GL085782](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782).
