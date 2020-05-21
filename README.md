@@ -26,7 +26,60 @@ Note:
   * PL + LR + WV is equivalent to PL* + LR* + RH
   * CLD = SWCLD + LWCLD
   * ECS = -ERF2x/NET 
+  
 
+## Accessing Data from the JSON file via Python  
+Load in the file:
+```
+import json
+f = open('cmip56_forcing_feedback_ecs.json','r')
+data = json.load(f)
+```
+To display the available mip eras, type:
+```
+data.keys()
+```
+which returns:
+```
+dict_keys(['CMIP5', 'CMIP6'])
+```
+To get a list of CMIP6 models, type:
+```
+data['CMIP6'].keys() 
+```
+To see which variants are available for CanESM5, type:
+```
+data['CMIP6']['CanESM5'].keys()
+```
+which returns 
+```
+dict_keys(['r1i1p1f1', 'r1i1p2f1'])
+```
+To see the data from the r1i1p2f1 variant of CanESM5, type:
+```
+data['CMIP6']['CanESM5']['r1i1p2f1']
+```
+which returns 
+```
+{'ECS': 5.615875344692928,
+ 'ERF2x': 3.639659171965616,
+ 'PL': -3.324746652302142,
+ 'PL*': -1.9354660083835276,
+ 'LR': -0.589242644226542,
+ 'LR*': -0.09003163619198515,
+ 'WV': 1.9569180530309362,
+ 'RH': 0.07050794199691038,
+ 'ALB': 0.4781269675709477,
+ 'CLD': 0.792934477604314,
+ 'SWCLD': -0.018227108870778348,
+ 'LWCLD': 0.8111615864750927,
+ 'NET': -0.6481018449608463,
+ 'ERR': 0.03790795336163966}
+```
+Don't forget to close the file:
+```
+f.close()
+```
 
 ## Reference
 Zelinka, M. D., T. A. Myers, D. T. McCoy, S. Po-Chedley, P. M. Caldwell, P. Ceppi, S. A. Klein, and K. E. Taylor, 2020: Causes of higher climate sensitivity in CMIP6 models, <em>Geophys. Res. Lett.</em>, 47, [doi:10.1029/2019GL085782](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782).
