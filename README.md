@@ -1,4 +1,6 @@
-# Summary
+# Summary 
+[![stable version](https://img.shields.io/badge/Current%20version-v.1.1-brightgreen.svg)](https://github.com/mzelinka/cmip56_forcing_feedback_ecs/releases/tag/v1.1)
+
 Two tables and a JSON file are provided containing effective climate sensitivity, effective 2xCO<sub>2</sub> radiative forcing, and radiative feedbacks for all CMIP5 and CMIP6 models that have published output from abrupt CO<sub>2</sub> quadrupling experiments. Also provided is a figure showing Gregory plots for the CMIP6 models. Methdology is described in [Zelinka et al. (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782), but the CMIP6 results are regularly updated as new models are published.
 
 ## Table Contents
