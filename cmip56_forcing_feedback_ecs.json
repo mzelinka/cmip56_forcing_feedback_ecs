@@ -1440,6 +1440,7 @@
     "metadata":{
         "author":"Mark D. Zelinka <zelinka1@llnl.gov>",
         "citation":"Zelinka et al. (2020) Causes of higher climate sensitivity in CMIP6 models, Geophys. Res. Lett., 47, doi:10.1029/2019GL085782.",
-        "date_modified":"2020-06-22"
+        "date_modified":"2020-06-22",
+        "version":"1.1"
     }
 }
