@@ -1,10 +1,10 @@
 # Summary 
-[![stable version](https://img.shields.io/badge/Current%20version-1.1-brightgreen.svg)](https://github.com/mzelinka/cmip56_forcing_feedback_ecs/releases/tag/v1.1)
+[![stable version](https://img.shields.io/badge/Current%20version-1.2-brightgreen.svg)](https://github.com/mzelinka/cmip56_forcing_feedback_ecs/releases/tag/v1.2)
 
-Two tables and a JSON file are provided containing effective climate sensitivity, effective 2xCO<sub>2</sub> radiative forcing, and radiative feedbacks for all CMIP5 and CMIP6 models that have published output from abrupt CO<sub>2</sub> quadrupling experiments. Also provided is a figure showing Gregory plots for the CMIP6 models. Methdology is described in [Zelinka et al. (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782), but the CMIP6 results are regularly updated as new models are published.
+Three tables and a JSON file are provided containing effective climate sensitivity, effective 2xCO<sub>2</sub> radiative forcing, and radiative feedbacks for all CMIP5 and CMIP6 models that have published output from abrupt CO<sub>2</sub> quadrupling experiments. Two tables contain the "flagship" model variants for CMIP5 and CMIP6. These are typically but not always the 'r1i1p1' variant (CMIP5) or the 'r1i1p1f1' variant (CMIP6), and are updated from Tables S1 and S2 in [Zelinka et al. (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782).  Results from other model variants are contained in the third "non-flagship" table. All models and variants are contained in the single JSON file (see details below).  Also provided is a figure showing Gregory plots for the CMIP6 models. Methdology is described in [Zelinka et al. (2020)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL085782), but the CMIP6 results are regularly updated as new models are published.
 
 ## Table Contents
-For each model, the following global mean values are provided:
+For each variant of each model, the following global mean values are provided:
 
 | Abbreviation  | Description  | Units  |
 | ------------- |:-------------:|:-------------:|
@@ -37,15 +37,17 @@ import json
 f = open('cmip56_forcing_feedback_ecs.json','r')
 data = json.load(f)
 ```
-To display the available mip eras, type:
+To display the dictionaries within the file, type:
 ```
 data.keys()
 ```
 which returns:
 ```
-dict_keys(['CMIP5', 'CMIP6', 'metadata'])
+dict_keys(['CMIP5', 'CMIP6', 'metadata', 'provenance'])
 ```
-To get a list of CMIP6 models, type:
+There are 4 dictionaries: two containing the CMIP5 and CMIP6 data, one containing the metadata for the json file, and one containing provenance information pointing back to the original data that went into the analysis (mainly for my personal use). 
+
+To get a list of available CMIP6 models, type:
 ```
 data['CMIP6'].keys() 
 ```
