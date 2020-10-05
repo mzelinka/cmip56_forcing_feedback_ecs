@@ -720,6 +720,24 @@
                 "WV":1.7466507145242087
             }
         },
+        "CIESM":{
+            "r1i1p1f1":{
+                "ALB":0.29345055854973867,
+                "CLD":0.8138070857633782,
+                "ECS":5.632439077197677,
+                "ERF2x":3.858292534992125,
+                "ERR":0.2078076221241516,
+                "LR":-0.34655353050997534,
+                "LR*":-0.013236640843049844,
+                "LWCLD":0.1325807833468482,
+                "NET":-0.6850127417466452,
+                "PL":-3.2526101159442,
+                "PL*":-1.889140432677077,
+                "RH":-0.09594066843724454,
+                "SWCLD":0.6812263024165293,
+                "WV":1.5990856382702612
+            }
+        },
         "CMCC-CM2-SR5":{
             "r1i1p1f1":{
                 "ALB":0.3384416372319632,
@@ -1154,6 +1172,24 @@
                 "WV":1.694568084033806
             }
         },
+        "IITM-ESM":{
+            "r1i1p1f1":{
+                "ALB":0.29285206072924397,
+                "CLD":-0.07503650303551955,
+                "ECS":2.368209687987923,
+                "ERF2x":4.513332201623802,
+                "ERR":-0.09052031998670818,
+                "LR":-0.7352008960756617,
+                "LR*":-0.13672955684673124,
+                "LWCLD":0.617206528019781,
+                "NET":-1.905799230750727,
+                "PL":-3.283542373684031,
+                "PL*":-1.9104767531726687,
+                "RH":0.01631838419101034,
+                "SWCLD":-0.6922430310553004,
+                "WV":1.985648801301949
+            }
+        },
         "INM-CM4-8":{
             "r1i1p1f1":{
                 "ALB":0.39938770496668546,
@@ -1206,6 +1242,24 @@
                 "RH":0.1028132428039194,
                 "SWCLD":0.14242772632007988,
                 "WV":1.9550667811335054
+            }
+        },
+        "KACE-1-0-G":{
+            "r1i1p1f1":{
+                "ALB":0.3593242733821107,
+                "CLD":0.7992373676122069,
+                "ECS":4.927631884629547,
+                "ERF2x":3.563374399378012,
+                "ERR":0.17921566474426875,
+                "LR":-0.505903386721469,
+                "LR*":-0.07670842616516307,
+                "LWCLD":-0.18746703064347922,
+                "NET":-0.7231413552812299,
+                "PL":-3.3013896701008565,
+                "PL*":-1.910989950820845,
+                "RH":-0.07148131477961214,
+                "SWCLD":0.986704398255686,
+                "WV":1.7463743958025093
             }
         },
         "MIROC-ES2L":{
@@ -1508,8 +1562,8 @@
     "metadata":{
         "author":"Mark D. Zelinka <zelinka1@llnl.gov>",
         "citation":"Zelinka et al. (2020) Causes of higher climate sensitivity in CMIP6 models, Geophys. Res. Lett., 47, doi:10.1029/2019GL085782.",
-        "date_modified":"2020-09-03",
-        "version":"1.4"
+        "date_modified":"2020-10-05",
+        "version":"1.5"
     },
     "provenance":{
         "ACCESS-CM2":{
@@ -1554,6 +1608,9 @@
         },
         "CESM2-WACCM-FV2":{
             "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_CESM2-WACCM-FV2.r1i1p1f1.2020-06-26.json"
+        },
+        "CIESM":{
+            "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_CIESM.r1i1p1f1.2020-10-01.json"
         },
         "CMCC-CM2-SR5":{
             "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_CMCC-CM2-SR5.r1i1p1f1.2020-07-21.json"
@@ -1647,6 +1704,9 @@
         "HadGEM3-GC31-MM":{
             "r1i1p1f3":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_HadGEM3-GC31-MM.r1i1p1f3.2020-07-02.json"
         },
+        "IITM-ESM":{
+            "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_IITM-ESM.r1i1p1f1.2020-10-01.json"
+        },
         "INM-CM4-8":{
             "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_INM-CM4-8.r1i1p1f1.2020-06-26.json"
         },
@@ -1664,6 +1724,9 @@
         },
         "IPSL-CM6A-LR":{
             "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_IPSL-CM6A-LR.r1i1p1f1.2020-07-01.json"
+        },
+        "KACE-1-0-G":{
+            "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_KACE-1-0-G.r1i1p1f1.2020-09-30.json"
         },
         "MIROC-ES2L":{
             "r1i1p1f2":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_MIROC-ES2L.r1i1p1f2.2020-07-02.json"
