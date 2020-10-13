@@ -1298,6 +1298,24 @@
                 "WV":2.0327412589791267
             }
         },
+        "MPI-ESM-1-2-HAM":{
+            "r1i1p1f1":{
+                "ALB":0.3881233981324301,
+                "CLD":-0.22552793025303952,
+                "ECS":2.954485561926625,
+                "ERF2x":4.163532660297746,
+                "ERR":0.326269409700088,
+                "LR":-0.6570592400041254,
+                "LR*":-0.08854012686965301,
+                "LWCLD":0.39033282719131157,
+                "NET":-1.409224236514021,
+                "PL":-3.157791198974862,
+                "PL*":-1.8498437335020357,
+                "RH":0.04240183167280092,
+                "SWCLD":-0.615860757444351,
+                "WV":1.9167613248854878
+            }
+        },
         "MPI-ESM1-2-HR":{
             "r1i1p1f1":{
                 "ALB":0.4164406750083663,
@@ -1562,8 +1580,8 @@
     "metadata":{
         "author":"Mark D. Zelinka <zelinka1@llnl.gov>",
         "citation":"Zelinka et al. (2020) Causes of higher climate sensitivity in CMIP6 models, Geophys. Res. Lett., 47, doi:10.1029/2019GL085782.",
-        "date_modified":"2020-10-05",
-        "version":"1.5"
+        "date_modified":"2020-10-13",
+        "version":"1.6"
     },
     "provenance":{
         "ACCESS-CM2":{
@@ -1739,6 +1757,9 @@
         },
         "MIROC6":{
             "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_MIROC6.r1i1p1f1.2020-06-30.json"
+        },
+        "MPI-ESM-1-2-HAM":{
+            "r1i1p1f1":"/p/user_pub/work/zelinka1/cmip6/abrupt-4xCO2/metadata_MPI-ESM-1-2-HAM.r1i1p1f1.2020-10-13.json"
         },
         "MPI-ESM-LR":{
             "r1i1p1":"/p/user_pub/work/zelinka1/cmip5/abrupt4xCO2/metadata_MPI-ESM-LR.r1i1p1.2020-06-29.json"
