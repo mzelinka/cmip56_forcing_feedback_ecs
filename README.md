@@ -1,5 +1,5 @@
 # Summary 
-[![stable version](https://img.shields.io/badge/Current%20version-2.1-brightgreen.svg)](https://github.com/mzelinka/cmip56_forcing_feedback_ecs/releases/tag/v2.1)
+[![stable version](https://img.shields.io/badge/Current%20version-2.2-brightgreen.svg)](https://github.com/mzelinka/cmip56_forcing_feedback_ecs/releases/tag/v2.2)
 
 [![DOI](https://zenodo.org/badge/259409949.svg)](https://zenodo.org/badge/latestdoi/259409949)
 
