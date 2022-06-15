@@ -968,6 +968,24 @@
                 "WV":1.7314825238380158
             }
         },
+        "EC-Earth3-Veg-LR":{
+            "r1i1p1f1":{
+                "ALB":0.5574287585332396,
+                "CLD":0.4058140988280327,
+                "ECS":4.231888886346553,
+                "ERF2x":3.2487204616169265,
+                "ERR":0.09235469432307486,
+                "LR":-0.2853678255015196,
+                "LR*":0.01005424099806407,
+                "LWCLD":0.2846181817464134,
+                "NET":-0.7676762195005529,
+                "PL":-3.2575331722429928,
+                "PL*":-1.8784265712912602,
+                "RH":0.046997921253062964,
+                "SWCLD":0.121195917081619,
+                "WV":1.7196272265596122
+            }
+        },
         "FGOALS-f3-L":{
             "r1i1p1f1":{
                 "ALB":0.3988572556299318,
@@ -1688,8 +1706,8 @@
     "metadata":{
         "author":"Mark D. Zelinka <zelinka1@llnl.gov>",
         "citation":"Zelinka et al. (2020) Causes of higher climate sensitivity in CMIP6 models, Geophys. Res. Lett., 47, doi:10.1029/2019GL085782.",
-        "date_modified":"2022-02-24",
-        "version":"2.1"
+        "date_modified":"2022-06-15",
+        "version":"2.2"
     },
     "provenance":{
         "ACCESS-CM2":{
@@ -1781,6 +1799,9 @@
         },
         "EC-Earth3-Veg":{
             "r1i1p1f1":"/p/user_pub/climate_work/zelinka1/cmip6/amip/metadata_EC-Earth3-Veg.r1i1p1f1.2021-04-08.json"
+        },
+        "EC-Earth3-Veg-LR":{
+            "r1i1p1f1":"/p/user_pub/climate_work/zelinka1/cmip6/abrupt-4xCO2/metadata_EC-Earth3-Veg-LR.r1i1p1f1.2022-06-14.json"
         },
         "FGOALS-f3-L":{
             "r1i1p1f1":"/p/user_pub/climate_work/zelinka1/cmip6/amip/metadata_FGOALS-f3-L.r1i1p1f1.2021-04-08.json",
